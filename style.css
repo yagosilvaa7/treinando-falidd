@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    min-width: 320px;
+}
+
+body {
+    background-color: lightgray;
+    min-height: 100vh;
+}
+
+header {
+    background-image: url(imagens/cabecalho1.jpg);
+    background-position: center center;
+    min-height: 45px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+header p {
+    font-size: 1.3em;
+    padding: 30px;
+}
+
+nav {
+    text-align: right;
+    text-align: justify;
+    min-height: 55px;
+    background-color: white;
+    padding-top: 30px;
+}
+
+nav a {
+    color: black;
+    padding-left: 8px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+nav a:hover {
+    background-color: rgba(25, 25, 139, 0.712);
+    color: white;
+    transition-duration: 1s;
+    text-decoration: underline;
+    padding: 7px;
+}
+
+section.imagen1 {
+    background-image: url(imagens/logo1.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 711px;
+    background-attachment: fixed;
+}
+
+section.imagen1 > p {
+    text-align: center;
+    font-family: cursive, Helvetica, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
